@@ -1,4 +1,4 @@
-def znach(A,B,S,C):                       # заносим дублирующиеся вычисления в функцию
+def operations(A,B,S,C):                       # заносим дублирующиеся вычисления в функцию
     if C == "+":
         S = A + B
         print("Результат суммы: ", S)
@@ -33,7 +33,7 @@ if f == "1":
         b = int(input())
         print("Введите значение для переменной C")
         c = input()
-        znach(A=a,B=b,S=s,C=c)
+        operations(A=a,B=b,S=s,C=c)
         print("Повторить? (0-да/1-нет)")
         d=int(input())
         T=1-d;
@@ -51,7 +51,7 @@ elif f == "2":
         b = int(input())
         print("Введите значение для переменной C")
         c = input()
-        znach(A=a, B=b, S=s, C=c)
+        operations(A=a, B=b, S=s, C=c)
         print("Повторить? (0-да/1-нет)")
         d = int(input())
         T = 1 - d;
@@ -66,7 +66,7 @@ elif f == "3":
         b = int(input())
         print("Введите значение для переменной C")
         c = input()
-        znach(A=a, B=b, S=s, C=c)
+        operations(A=a, B=b, S=s, C=c)
         print("Повторить? (0-да/1-нет)")
         d = int(input())
         T = 1 - d;
